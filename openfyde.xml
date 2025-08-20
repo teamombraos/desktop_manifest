@@ -2,6 +2,8 @@
 <manifest>
   <remote name="openfyde"
 	  fetch="https://github.com/openFyde" />
+  <remote name="teamombraos"
+	  fetch="https://github.com/teamombraos" />
 
   <project path="openfyde/overlays/fyde-eclass"
     name="fyde-eclass"
@@ -84,10 +86,10 @@
   </project>
 
   <project path="openfyde/overlays/project-openfyde-patches"
-    name="project-openfyde-patches"
+    name="project-ombra-patches"
     revision="refs/heads/r132-dev"
     groups="fydeos,fydeos_overlays,project"
-    remote="openfyde">
+    remote="teamombraos">
     <linkfile src="." dest="src/overlays/project-openfyde-patches" />
   </project>
 
